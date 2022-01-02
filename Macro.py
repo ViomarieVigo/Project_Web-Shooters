@@ -98,7 +98,6 @@ button_command_list = [
 
 ]
 
-
 # zip lists together to form a list of tuples
 zip_list = zip(button_name_list, button_label_list, button_command_list)
 
