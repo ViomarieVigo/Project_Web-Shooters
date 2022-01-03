@@ -12,7 +12,7 @@ lastClickY = 0
 window = tk.Tk()
 
 window.configure(bg='#696969')
-
+window.minsize(250,150)
 
 
 # Allow window to be dragged on top level
@@ -219,7 +219,5 @@ window.attributes('-alpha',0.5)
 # Moves window to the topmost
 window.lift(window)
 window.attributes('-topmost', True)
-
-
 
 window.mainloop()
